@@ -1,0 +1,205 @@
+@font-face {
+    font-family: tajawal ;
+    src: url(/fonts/Tajawal-Regular.ttf);
+}
+@font-face {
+    font-family:dancing ;
+    src: url(/fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: lordina;
+    src: url(/fonts/LondrinaSketch-Regular.ttf);
+}
+@font-face {
+    font-family:breeserif ;
+    src: url(/fonts/BreeSerif-Regular.ttf);
+}
+.lordinaFont{
+    font-family: lordina;
+}
+.tajawalFont{
+    font-family: tajawal;
+}
+.dancingFont{
+    font-family: dancing;
+}
+.breeserifFont{
+    font-family: breeserif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* body{
+    background-image: url(images/bg2.jpg);
+} */
+#header0{
+    background-color: black;
+    color: white;
+}
+#header{
+    background-color:burlywood;
+    /* background-image: url(images/bg2.jpg); */
+    background-color:rgb(2, 82, 82);
+    color: white;
+}
+
+.footer{
+    background-color: rgb(189, 13, 66);
+    /* height: 100px; */
+}
+
+.logo{
+    font-family:breeserif;
+
+}
+.navbar{
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+a.nav-link{
+    color: white !important;
+    margin:0px 15px ;
+}
+
+/* main home page */
+.imageContainer{
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 15px;
+    height: 200px;
+}
+.imageOne{
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+}
+/* product page */
+.card-section{
+    border-radius: 40px 0px;
+    /* background-color:burlywood; */
+    height: 450px;   
+    padding: 20px; 
+}
+.card{
+    border-radius: 40px !important;
+    box-shadow: -3px -3px 5px rgb(145, 121, 121);
+    margin: 10px;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.card-img-top{
+    object-fit: cover;
+    height: 200px;
+    border-radius: 40px 40px 0px 0px !important;    
+}
+
+/* blog page */
+.blogContent{
+}
+.main{
+    margin: 2px;
+    padding: 10px;
+    /* background-color:darkcyan; */
+    color: black;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;   
+}
+
+.blogImg{
+}
+.heading{
+    color: teal;
+    font-family: breeserif;
+}
+
+.cart{
+    border-radius: 20px;
+    width: 35px;
+    border: none;
+}
+.cart:hover{
+    background: #000;
+    color: white;
+}
+
+#more{display: none;}
+#myBtn{
+
+    background:none;
+    border: none;
+    color:teal;
+    margin-left: 3px;
+    padding: 2px;
+    
+
+}
+
+
+.contact-form {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.contact-form label {
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color:teal;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.contact-form button:hover {
+    background-color:rgb(2, 37, 37);
+}
+
+
+
+
+
+
+
+@media screen {
+    
+}
+
